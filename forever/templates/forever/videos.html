@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>Video Produse Forever</h1>
+
+<div class= "container">
+    {% for x in video reversed %}
+    <h3 class="text-center mt-2 mb-2">{{x.caption}}</h3>
+    <center>
+    <video class="embed-responsive embed-responsive-16by9"  width="560" height="480" controls>
+        <source src="{{x.video.url}}" type="video/mp4" />
+      </video>
+      <hr>
+    </center>
+    {% endfor %}
+    
+</div>
+{% endblock content %}

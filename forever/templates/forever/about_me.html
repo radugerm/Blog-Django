@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <h1 id="eu"> O introducere despre Ardelean Tabita</h1>
+    <div class="container">
+        {% for y in imag reversed%}
+
+        <table>
+            <thead>
+                
+                <th><img class ="eu-image" src="{{y.image.url}}" width="560" height="480" class="img-fluid" alt="Responsive image" ></th>
+            </div>
+                <th> <p class="text-center mb-3">{{y.caption}}
+                    
+                </p></th>
+               
+            </thead>
+       
+  
+        </table>
+        {% endfor %}
+   
+
+
+{% endblock content %}

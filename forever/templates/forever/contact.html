@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+   
+    <h1 id ="eu">Aici ma puteti contacta</h1>
+<div class="container">
+    <form method="POST">
+        {% csrf_token %}
+        {% for field in form %}
+        <div class="mb-3">
+             {{field.label_tag}}
+            </div>
+            {{field}}
+        {% endfor %}
+        <br>
+        <br>
+    <input type="submit" value = "Send message">
+</form>
+</div>
+  
+
+  
+{% endblock content %}

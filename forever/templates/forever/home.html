@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+   
+<h1 > Home Page</h1>
+
+
+<div class="container">
+    {% for x in imagee reversed %}
+    <center><h3 >{{x.title}}</h3></center>
+    
+    <table >
+       
+        <th><img class="Home-image" src="{{x.image.url}}"   class="img-fluid" alt="Responsive image"></th>
+            <th><p>{{x.caption}}</p></th>
+            <hr>
+     
+   
+    </table>    
+    {% endfor %}
+</div>
+
+  
+{% endblock content %}

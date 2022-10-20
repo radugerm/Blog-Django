@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>Experiente Produse Forever</h1>
+
+
+<div class="container">
+    {% for y in pics reversed%}
+    <table>
+        <th><img class="pics-pic" src="{{y.image.url}}" width="300" height="auto" class="img-fluid" alt="Responsive image"></th>
+        <th><p>{{y.caption}}</p></th>
+    
+    <hr>
+</table>    
+    {% endfor %}
+</div>
+  
+
+  
+{% endblock content %}
