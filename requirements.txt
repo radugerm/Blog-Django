@@ -80,6 +80,7 @@ future @ file:///C:/ci/future_1607568713721/work
 gevent @ file:///C:/ci/gevent_1628273776273/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 greenlet @ file:///C:/ci/greenlet_1628888275363/work
+gunicorn==20.1.0
 h5py @ file:///C:/ci/h5py_1622088609188/work
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
 html5lib @ file:///Users/ktietz/demo/mc3/conda-bld/html5lib_1629144453894/work
@@ -282,6 +283,7 @@ wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 Werkzeug @ file:///tmp/build/80754af9/werkzeug_1635505089296/work
 whichcraft @ file:///tmp/build/80754af9/whichcraft_1617751293875/work
+whitenoise==6.2.0
 widgetsnbextension @ file:///C:/ci/widgetsnbextension_1607531582688/work
 wikipedia==1.4.0
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
@@ -298,4 +300,3 @@ zict==2.0.0
 zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
 zope.event==4.5.0
 zope.interface @ file:///C:/ci/zope.interface_1625036252485/work
-

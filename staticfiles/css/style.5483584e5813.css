@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    color:rgb(20, 12, 8);
+    background-color: rgb(162, 172, 202);
+    font-family:"Sofia", sans-serif;
+    padding: 100px;
+}
+p{
+    font-family: cursive;
+    text-align: center;
+    color:rgb(134, 66, 66);
+    border-collapse: collapse;
+    padding: 12px 15px ;
+
+}
+
+
+h3{
+    font-family: cursive;
+}
+
+.eu-image{
+    width: auto;
+    float: left;    
+}
+
+.Home-image{
+    width: 300px;
+}

@@ -1,1 +1,1 @@
-web: gunicorn site_tabita.wsgi --log-file -
+web: gunicorn site_tabita.wsgi
